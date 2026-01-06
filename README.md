@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +25,6 @@ const ctx = canvas.getContext("2d")
 canvas.width = window.innerWidth
 canvas.height = window.innerHeight
 
-// ---------- توپ ----------
 let ball = {
   x: canvas.width /2 ,
    y: canvas.height /2,
@@ -36,7 +34,7 @@ let ball = {
   color: "white"
 }
 
-// ---------- دیوار چپ ----------
+
 const wall = {
   x: 0,
   width: 20
